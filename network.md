@@ -3,7 +3,7 @@
 
 ### To check different connection count from NETSTAT command
 ```
--bash-4.1$ **netstat -nap | awk '/tcp/ {print $6}'| sort | uniq -c**
+$ netstat -nap | awk '/tcp/ {print $6}'| sort | uniq -c
 
      27 CLOSE_WAIT
       1 CLOSING
